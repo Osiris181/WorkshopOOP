@@ -158,9 +158,9 @@ h2 {
 }
 
 #laptop {
-  position: absolute;
+  position: relative;
   left: 900px;
-  top: 1820px;
+  bottom: 610px;
   width: 500px;
 }
 
@@ -298,8 +298,10 @@ header {
 /* Bagian footer */
 
 .left img {
-  width: 35vh;
-  height: 35vh;
+  width: 30vh;
+  height: 30vh;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .right img {
@@ -352,9 +354,11 @@ header {
 }
 
 #logodarioop {
-  position: absolute;
-  left: 38px;
-  top: 4065px;
+  position: relative;
+  top: 30px;
+
+  right: 1270px;
+  height: 230px;
   width: 230px;
 }
 
